@@ -55,8 +55,7 @@ go.work
 
 # End of https://www.toptal.com/developers/gitignore/api/go,visualstudiocode
 
-
-Latihan/*
-database/*
-helper/*
-other/*
+1-Golang-Dasar/Latihan/*
+1-Golang-Dasar/database/*
+1-Golang-Dasar/helper/*
+1-Golang-Dasar/other/*
