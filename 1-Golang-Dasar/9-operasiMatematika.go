@@ -12,10 +12,32 @@ func main() {
 	var c = a * b
 	fmt.Println(c)
 
+	/*
+	--- Augmented Assignments
+	
+	Operasi Matematika		Augmented Assignments
+		a = a + 10				a += 10
+		a = a - 10				a -= 10
+		a = a * 10				a *= 10
+		a = a / 10				a /= 10
+		a = a % 10				a %= 10
+
+	*/
 	var i = 10
 	i += 10 // i = i + 10
 	fmt.Println(i)
 
+	/*
+	--- Unary Operator
+	
+	Operator					Keterangan
+		++						a = a + 1
+		--						a = a - 1
+		-						Negative
+		+						Positive
+ 		!						Boolean Kebalikan
+
+	*/
 	i ++ //i = i + 1
 	fmt.Println(i)
 
