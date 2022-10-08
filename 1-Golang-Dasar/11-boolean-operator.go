@@ -2,6 +2,15 @@ package main
 
 import "fmt"
 
+/*
+Operasi Boolean
+
+Operator			Keterangan
+	&&					Dan
+	||					Atau
+	!					Kebalikan
+*/
+
 func main() {
 	var ujian = 80
 	var absensi = 80
