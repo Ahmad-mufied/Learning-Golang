@@ -5,6 +5,14 @@ import (
 	"strings"
 )
 
+/*
+Package strings
+
+--	Package strings adalah package yang berisikan function-function untuk memanipulasi tipe data
+	String
+--	https://golang.org/pkg/strings/
+*/
+
 
 
 func main() {

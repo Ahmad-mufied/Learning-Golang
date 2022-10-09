@@ -1,10 +1,15 @@
-//* Defer
-//* -- Function yang bisa kita jadwalkan untuk diekesekusi setelah sebuah function selesai dieksekusi
-//* -- Akan selalu dieksekusi walaupun terjadi error di function yang diekesekusi
-
 package main
 
 import "fmt"
+
+/*
+
+Defer
+
+--	Defer function adalah function yang bisa kita jadwalkan untuk dieksekusi setelah sebuah function
+	selesai di eksekusi
+--	Defer function akan selalu dieksekusi walaupun terjadi error di function yang dieksekusi
+*/
 
 func logging() {
 	fmt.Println("Selesai memanggil function")

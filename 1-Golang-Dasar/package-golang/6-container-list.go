@@ -6,6 +6,12 @@ import (
 )
 
 
+/*
+Package container/list
+
+--	Package container/list adalah implementasi struktur data double linked list di Go-Lang
+--	https://golang.org/pkg/container/list/
+*/
 
 func main() {
 	data := list.New()

@@ -5,6 +5,13 @@ import (
 	"fmt"
 )
 
+/*
+Package flag
+
+--	Package flag berisikan fungsionalitas untuk memparsing command line argument
+--	https://golang.org/pkg/flag/
+
+*/
 func main() {
 	var host *string = flag.String("host", "localhost", "Put your database host")
 	var user *string = flag.String("user", "root", "Put your database user")

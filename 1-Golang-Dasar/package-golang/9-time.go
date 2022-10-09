@@ -5,6 +5,13 @@ import (
 	"time"
 )
 
+/*
+Package time
+
+--	Package time adalah package yang berisikan fungsionalitas untuk management waktu di Go-Lang
+--	https://golang.org/pkg/time/
+*/
+
 
 func main() {
 	now := time.Now()

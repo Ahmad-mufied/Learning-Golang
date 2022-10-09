@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+/*
+* For Loops
+-- Dalam bahasa pemrograman, biasanya ada fitur yang bernama perulangan
+-- Salah satu fitur perulangan adalah for loops
+*/
+
 func main() {
 	counter := 1
 
@@ -10,7 +16,13 @@ func main() {
 		counter++
 	}
 
-	//* For dengan Statement
+	/*
+	* For dengan Statement
+	-- Dalam for, kita bisa menambahkan statement, dimana terdapat 2 statement yang bisa tambahkan
+	   di for
+	-- Init statement, yaitu statement sebelum for di eksekus
+	-- Post statement, yaitu statement yang akan selalu dieksekusi di akhir tiap perulangan
+	 */
 	for i := 1; i <= 5; i++ {
 		fmt.Println(i)
 	}
@@ -23,7 +35,13 @@ func main() {
 		fmt.Println(slice[i])
 	}
 
-	// * For range Slice
+	/*
+	* For Range
+	-- For bisa digunakan untuk melakukan iterasi terhadap semua data collection
+	-- Data collection contohnya Array, Slice dan Map
+	*/
+
+	// * For range slice
 
 	for i, value := range slice {
 		fmt.Println("Index", i, "=", value)

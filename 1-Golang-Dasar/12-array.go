@@ -1,6 +1,12 @@
 package main
 
 import "fmt"
+/*
+Tipe Data  Array
+-- tipe data yang berisikan kumpulan data dengan tipe yang sama
+-- Saat membuat array, kita perlu menentukan jumlah data yang bisa ditampung oleh Array tersebut
+-- Daya tampung Array tidak bisa bertambah setelah Array dibuat
+*/
 
 func main() {
 
@@ -13,6 +19,11 @@ func main() {
 	fmt.Println(names[0])
 	fmt.Println(names[1])
 	fmt.Println(names[2])
+	
+	/*
+	Membuat Array Langsung
+	-- Di Go-Lang kita juga bisa membuat Array secara langsung saat deklarasi variable
+	*/
 
 	var values = [3]int{
 		90,
@@ -24,6 +35,16 @@ func main() {
 	fmt.Println(values[0])
 	fmt.Println(values[1])
 	fmt.Println(values[2])
+
+	/*
+	Function Array
+
+			Operasi								Keterangan
+	len(array)						Untuk mendapatkan panjang Array
+	array[index]					Mendapat data di posisi
+	array[index] = value			Mengubah data di posisi index
+
+	*/
 
 	fmt.Println(len(names))
 	fmt.Println(len(values))

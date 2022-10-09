@@ -5,6 +5,12 @@ import (
 	"math"
 )
 
+/*
+Package math
+
+--	Package math merupakan package yang berisikan constant dan fungsi matematika
+--	https://golang.org/pkg/math/
+*/
 func main() {
 	fmt.Println("math.Round(1.7) =>", math.Round(1.7))
 	fmt.Println("math.Round(1.3) =>", math.Round(1.3))
